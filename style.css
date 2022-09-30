@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.entire-game {
+    width: 100%;
+    display: flex;
+    border: 5px solid black;
+    margin: 5%;
+}
+
+.playfield {
+    width: 47%;
+    border: 3px solid black;
+    margin: 2%;
+}
+
+.result-box {
+    width: 47%;
+    border: 3px solid black;
+    margin: 2%;
+}
